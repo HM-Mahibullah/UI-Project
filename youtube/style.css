@@ -96,14 +96,16 @@ span {
     bottom: 0;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
+    border-radius: 50%;
 }
 
 .images:hover .shape {
     bottom: 8px;
+ 
 
 }
 
 .images:hover .my {
     left: 55%;
-
+  
 }
