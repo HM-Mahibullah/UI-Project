@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+   background-color: #9da383;
 }
 
 .logo-DESIGN {
@@ -108,4 +109,16 @@ span {
 .images:hover .my {
     left: 55%;
   
+}
+
+.text {
+    position: absolute;
+    bottom: -68px; /* Adjust this value to position the text */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px; /* Adjust the font size as needed */
+    color: white; /* Adjust the text color as needed */
+    /* background-color: rgba(0, 0, 0, 0.5); Optional: Add a background to the text */
+    padding: 5px 10px; /* Optional: Add padding to the text */
+    border-radius: 5px; /* Optional: Add border radius to the text */
 }
