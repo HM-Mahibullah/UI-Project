@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   background-color: #9da383;
+}
+
+.logo-DESIGN {
+    position: relative;
+    position: static;
+    width: 100%;
+    height: 5vh;
+    /* background: #6b707a; */
+}
+
+nav {
+    /* display: fixed; */
+    width: 84%;
+    margin: auto;
+    padding: 20 px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    gap: 20px;
+   justify-content: center;
+   transition: all 0.3s ease;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    font-size: 200%;
+    color: rgb(69, 42, 181);
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+
+    color: red;
+}
+
+.delete {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 13%;
+}
+
+.delete h1 {
+    font-size: 50px;
+    color: hsla(30, 8%, 5%, 0.304);
+    margin-bottom: 20px;
+}
+
+span {
+    color: orange;
+    font-size: 60%;
+}
+
+.delete p {
+    color: #555;
+    line-height: 22px;
+}
+
+.delete a {
+    background: #555;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
+
+.images {
+    width: 30%;
+    height: 50%;
+    position:absolute;
+    /* bottom: 0; */
+    right: 100px;
+
+
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    border-radius: 50%;
+}
+
+.images:hover .shape {
+    bottom: 8px;
+ 
+
+}
+
+.images:hover .my {
+    left: 55%;
+  
+}
+
+.text {
+    position: absolute;
+    bottom: -68px; /* Adjust this value to position the text */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px; /* Adjust the font size as needed */
+    color: white; /* Adjust the text color as needed */
+    /* background-color: rgba(0, 0, 0, 0.5); Optional: Add a background to the text */
+    padding: 5px 10px; /* Optional: Add padding to the text */
+    border-radius: 5px; /* Optional: Add border radius to the text */
+}
