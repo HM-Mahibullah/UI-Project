@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #47af2a;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.content {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 5%;
+    cursor: pointer;
+    padding-top: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: 0.4s;
+    background: #6c2f66;
+}
+
+.content:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.26), 0 3px 6px rgba(0, 0, 0, 0.22);
+    transform: translateY(-8px); /* Fixed: Changed translate(0px -8px) to translateY(-8px) */
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+    color: #fff; /* Changed: Adjusted text color for better visibility */
+    padding-top: 0 9px;
+}
+
+h6 {
+    font-size: 26px;
+    text-align: center;
+    color: #168fa4;
+    margin: 10%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+
+li {
+    padding-top: 5px;
+}
+
+.fa {
+    font-size: 28px;
+    transition: 0.4s;
+    padding: 3px;
+}
+
+.checked {
+    color: #0d6a2e;
+}
+
+.fa:hover {
+    transform: scale(1.3);
+    transition: 0.6s;
+}
+
+button {
+    text-align: center;
+    font-size: 30px;
+    color: #fff; /* Changed: Adjusted text color for better visibility */
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.buy-1 {
+    background: #2196f3; /* Changed: Adjusted color for better contrast */
+}
+
+.buy-2 {
+    background: #e91e63; /* Changed: Adjusted color for better contrast */
+}
+
+.buy-3 {
+    background: #9c27b0; /* Changed: Adjusted color for better contrast */
+}
+
+.buy-4 {
+    background: #4caf50; /* Changed: Adjusted color for better contrast */
+}
+
+/* Responsive Design */
+@media (max-width: 1000px) {
+    .content {
+        width: 45%; /* Adjusted for medium screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .content {
+        width: 100%; /* Adjusted for small screens */
+    }
+}
