@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     else {
         // LOGIN FAILED
-        header("Location: error.html");
+        header("Location: order.html");
         exit();
     }
 
